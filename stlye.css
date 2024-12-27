@@ -1,0 +1,242 @@
+h1{
+    color: rgb(227 ,82, 5);
+    text-align: center;
+    font-size: 40px;
+    font-family: "press start 2p";
+    width:100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 2s,
+        cursor .14s step-end infinite alternate;
+}
+
+/*cursor blinking*/
+/* @keyframes cursor {
+    50% { border-color: transparent;}
+} */
+
+/*typing effect*/
+@keyframes typing{
+    from{width:0}
+}
+
+h2{
+    text-align: center;
+    font-family: "press start 2p";
+    color: rgb(80, 108, 135);
+}
+
+body{
+    background-color: rgb(255, 255, 255);   
+
+}
+
+.roundbox{
+    width: 80%; 
+    height: 27%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding: 0.5%;
+    border: 10px solid white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 30px rgb(227 ,82, 5);
+}
+
+.btn{
+    margin-left: 3%;
+    font-size: 1.5rem;
+    font-weight: 650;
+    background-color: var(--clr-rgba);
+    text-align: center;
+    padding: 0.5em 1em;
+    border: 10px solid rgb(227 ,82, 5);
+    border-radius: 50px;
+    color: var(--clr-accent);
+    font-family: "press start 2p";
+    
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function:ease;
+    
+}
+
+.btn:hover{
+    transform: translateY(-10px);
+    background-color: rgb(227 ,82, 5);
+    color:rgb(255, 255, 255)
+}
+.btn_contact{
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 1.5rem;
+    font-weight: 650;
+    background-color: var(--clr-rgba);
+    text-align: center;
+    padding: 0.5em 1em;
+    border: 10px solid rgb(227 ,82, 5);
+    border-radius: 50px;
+    color: var(--clr-accent);
+    font-family: "press start 2p";
+    
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function:ease;
+    
+}
+.btn_contact:hover{
+    transform: translateY(-10px);
+    background-color: rgb(227 ,82, 5);
+    color:rgb(255, 255, 255)
+}
+.btn_skills{
+    margin-left: 3%;
+    font-size: 1.5rem;
+    font-weight: 650;
+    background-color: var(--clr-rgba);
+    text-align: center;
+    padding: 0.5em 1em;
+    border: 10px solid rgb(227 ,82, 5);
+    border-radius: 50px;
+    color: var(--clr-accent);
+    font-family: "press start 2p";
+    
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function:ease;
+    
+}
+.btn_skills:hover{
+    transform: translateY(-10px);
+    background-color: rgb(227 ,82, 5);
+    color:rgb(255, 255, 255)
+}
+
+p{
+    margin-left: 5%;
+    font-family: "press start 2p";
+    color: rgb(80, 108, 135);
+    font-size: 16px;
+}
+.Text2{
+    margin-left: 55%;
+}
+.Hyperlink{
+    margin-left: 57%;
+    font-family: "press start 2p";
+}
+.Text_con{
+    font-family: "press start 2p";
+}
+
+nav {
+    background-color: #e35205; /* Background color of the navigation bar */
+    padding: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff; /* Text color for the title and button */
+    position: fixed; /* This will fix position of nav bar */
+    justify-content: space-between; /* To push the title and button to the opposite sides */
+}
+
+.navbar-left h1 {
+    margin: 0;
+}
+
+.navbar-right a {
+    text-decoration: none;
+    /* background-color: #ff8809; Background color of the button */
+    color: #fff; /* Text color for the button */
+    border: none;
+    padding: 10px 20px;
+    
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.navbar-right a:hover{
+    background-color: #666666; /* Background color of the button */
+    color: #fff; /* Text color for the button */
+    border: none;
+    transform: scale(1.2);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#home a:hover{
+    text-decoration: none;
+    background-color: #e35205;
+    color: #fff; 
+    border: none;
+    padding: 80px 120px;
+    border-radius: 30PX;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#home {
+    color: #000000; 
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: #000000;
+}
+
+#home a{
+    text-decoration: none;
+    background-color: #fff;
+    color: #000; /* Text color for the button */
+    border: none;
+    padding: 80px 120px;
+    border-radius: 30PX;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.navbar-right a:hover{
+    background-color: #666666; /* Background color of the button */
+    color: #fff; /* Text color for the button */
+    border: none;
+    transform: scale(1.2);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.image{
+    width: 35%;
+    height: 35%;
+    margin-left: 14%;
+    clip-path: circle();
+    float: left;
+    
+}
+
+.image_cer{
+    width: 21%;
+    height: 21%;
+    text-align: center;
+    align-items: center;
+    margin-left: 1.25%;
+    padding: 1%;
+}
+
+.active {
+    background-color: #666666;
+}
+
+.inactive {
+    background-color: #004aad;
+}
