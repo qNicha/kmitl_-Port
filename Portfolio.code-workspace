@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "Portfolio",
+			"path": "../../../../../../Downloads/Portfolio"
+		},
+		{
+			"name": "Certificates",
+			"path": "../../../../../../Downloads/Certificates"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "Portfolio"
+	}
+}
